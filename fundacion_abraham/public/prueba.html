@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Prueba de Slider</title>
+<!-- CSS -->
+<link rel="stylesheet" href="./css/styleSlider.css" type="text/css" media="all" />
+<!-- JavaScripts-->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/s3Slider.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#slider1').s3Slider({
+            timeOut: 3000 
+        });
+    });
+</script>
+</head>
+
+<body>
+
+    <center>
+    <div id="slider1">
+        <ul id="slider1Content">
+            <li class="slider1Image">
+                <a href=""><img src="img/dummies/slides/01.jpg" alt="" /></a>
+                <span class="left"><strong>Hola Mundo</strong><br />Coloque su informacion </span></li>
+            <li class="slider1Image">
+                <img src="img/dummies/slides/01.jpg" alt="" />
+                <span class="left"><strong>Title text 2</strong><br />Content text...</span></li>
+            <li class="slider1Image">
+                <img src="img/dummies/slides/01.jpg" alt="" />
+                <span class="right"><strong>Title text 3</strong><br />Content text...</span></li>
+            <div class="clear slider1Image"></div>
+        </ul>
+    </div>
+    </center>
+  <!-- // slider -->
+
+</body>
+</html>

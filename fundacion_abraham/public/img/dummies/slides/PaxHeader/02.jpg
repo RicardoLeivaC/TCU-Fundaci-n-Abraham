@@ -1,0 +1,3 @@
+30 ctime=1405695947.551899344
+20 atime=1405665743
+85 SCHILY.acl.access=user::rw-,group::rwx,other::r--,user:armando:rwx:1000,mask::r--
